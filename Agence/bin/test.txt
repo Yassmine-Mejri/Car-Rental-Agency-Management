@@ -1,0 +1,159 @@
+MENU 1
+3 vehicule:
+1/
+V1: mat:123
+    cons:Ferdinand
+    marq: audi
+    etat: 1 dispo
+
+v2: mat:456
+    cons:Gustav
+    marq: bmw
+    etat: 2  louee
+
+v3  mat:789
+    cons:Carl 
+    marq: mercedes 
+    etat: 3 en cour 
+    
+v4  mat:987
+    cons:Carl
+    marq: mercedes
+    etat: 3 en cour 
+
+v5  mat: 654
+    cons: Ferry 
+    marq: porsche
+    etat: 1 dispo
+
+V6  mat: 321
+    cons: Enzo 
+    marq: ferrari
+    etat: 1 dispo
+
+v7  mat: 213
+    cons: Ettore 
+    marq: bugatti
+    etat: 1 dispo
+
+v8  mat: 768
+    cons: Carlos
+    marq: jeep
+    etat: 1 dispo   
+
+
+2/
+modification : v4 : etat:1 dispo
+
+
+3/
+suppression :  v4
+
+MENU 2
+1/
+8 location:
+
+// n'exist pas : v: mat: 001
+
+
+// avance manq  : v: mat:123
+                    cons:Ferdinand 
+                    marq: audi
+                    etat: 1 dispo
+                 c: cin:01234567
+                    nom: mejri
+                    prenom: ali
+                    adress: isg
+                 l: dd: 01/12/2022
+                    df: 02/12/2022
+                    prix: 400
+                    montant: 000  
+
+// n'est pas disp : v: mat: 789
+                  
+
+// effectué    
+// 1/2           v1: mat:123
+                    cons:Ferdinand 
+                    marq: audi
+                    etat: 1 dispo
+                 c: cin:01234567
+                    nom: mejri
+                    prenom: ali
+                    adress: isg
+//fidele         l: dd: 01/12/2022
+                    df: 02/12/2022
+                    prix: 400
+                    montant: 10 
+
+
+// 1/2           v5:mat: 654
+                    cons: Ferry 
+                    marq: porsche
+                    etat: 1 dispo
+                 c: cin:12345678
+                    nom: mejri
+                    prenom: ela
+                    adress: isg
+//retard         l: dd: 06/11/2022
+//avant d,lyoum     df: 06/12/2022
+                    prix: 400
+                    montant: 10
+
+
+//  1/3          v6: mat: 321
+                    cons: Enzo 
+                    marq: ferrari
+                    etat: 1 dispo
+                 c: cin:87654321
+                    nom: bouhlel
+                    prenom: ahmed
+                    adress: isg
+//fidele         l: dd: 01/12/2022
+                    df: 01/01/2023
+                    prix: 400
+                    montant: 10
+
+// 1/3           v7: mat:213
+                    cons:Ettore 
+                    marq: Bugatti
+                    etat: 1 dispo
+                 c: cin:01234567
+                    nom: mejri
+                    prenom: ali
+                    adress: isg
+//fidele         l: dd: 04/12/2022
+                    df: 28/12/2022
+                    prix: 400
+                    montant: 10 
+
+// 1/3           v8: mat: 768
+                    cons: Carlos 
+                    marq: jeep
+                    etat: 1 dispo  
+                 c: cin:01234567
+                    nom: mejri
+                    prenom: ali
+                    adress: isg
+//fidele         l: dd: 04/12/2022
+                    df: 19/12/2022
+                    prix: 900
+                    montant: 10                    
+
+MENU 3
+1/
+1er date 01/12/2022
+2eme date 30/12/2022
+Nombre 2
+
+2/ 
+1er date 01/12/2022
+2eme date 30/12/2022
+Cout 1300
+
+3/ risque V5
+
+
+
+
+
